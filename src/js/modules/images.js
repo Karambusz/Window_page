@@ -3,7 +3,7 @@ const images = ()=> {
         workSection = document.querySelector(".works"),
         bigImage = document.createElement("img");
 
-    imgPopup.classList.add("popup");
+    imgPopup.classList.add("imgpopup");
     workSection.appendChild(imgPopup);
 
     imgPopup.style.cssText = "justify-content: center; align-items: center; display: none";
@@ -22,7 +22,7 @@ const images = ()=> {
             bigImage.setAttribute('src', path);
         }
 
-        if(target && target.matches("div.popup")) {
+        if(target && target.matches("div.imgpopup")) {
             imgPopup.style.display = "none";
             document.body.style.overflow = "";
         }
