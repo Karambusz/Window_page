@@ -4,6 +4,7 @@ import tabs from "./modules/tabs";
 import forms from "./modules/forms";
 import changeModalState from "./modules/changeModalState";
 import timer from "./modules/timer";
+import images from "./modules/images";
 
 window.addEventListener('DOMContentLoaded', function() {
     'use strict';
@@ -20,7 +21,8 @@ window.addEventListener('DOMContentLoaded', function() {
 
     const deadline = "2020-09-18";
     timer(".timer1",deadline);
+    images();
 
     
-    // tasks: 1,2,3,4,5,6,7, 10,11,12
+    // tasks: 1,2,3,4,5,6,7,8, 10,11,12
 });
